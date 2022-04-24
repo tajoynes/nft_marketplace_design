@@ -1,0 +1,14 @@
+.splash-text-backdrop {
+    display: flex;
+}
+
+.splash-text {
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    mix-blend-mode: screen;
+    transform: scaleX(-1);
+}
+.splash-text:hover {
+    color: rgb(255, 255, 255);
+    background: rgb(0, 0, 0);
+}

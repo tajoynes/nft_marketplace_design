@@ -1,0 +1,20 @@
+.mainwrapper {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.gallerybtn {
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -60%);
+}
+
+@keyframes pulse {
+    50% {
+        opacity: .90;
+    }
+}
+.imagetwo:hover {
+    animation: pulse 2s cubic-bezier(0.5, 0, 0.8, 1) infinite;
+}
+
